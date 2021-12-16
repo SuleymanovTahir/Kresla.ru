@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=10">
+    <title>Интернет-магазин Кресел SAMURAI</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/slick.option.js"></script>
+    <script src="js/pulse.js"></script>
+
+
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <header class="header">
+
+            <div class="head">
+                <div class="head_box">
+                    <div class="head_box_item">
+                        <div class="logo_img"><img src="img/logo_main.png" alt=""></div>
+                        <div class="logo_text">КРЕСЛА SAMURAI</div>
+                    </div>
+                </div>
+
+                <div class="head_box">
+                    <div class="head_box_item">
+                        <span class="icon"><i class="fa fa-search"></i></span>
+                        <input type="search" id="search" placeholder="Название модели или артикул" />
+                    </div>
+                </div>
+
+                <div class="head_box inline">
+                    <div class="head_box_item"><img src="img/icons/call.svg" alt=""></div>
+                    <div class="head_box_item"><span class="phone">+7 495 221-06-75</span></div>
+                </div>
+
+                <div class="head_box">
+                    <div class="head_box_item"><button class="btn">Заказать звонок</button></div>
+                </div>
+            </div>
+
+            <div class="head_menu">
+                <nav class="main_menu">
+                    <ul>
+                        <li><img src="img/icons/menu_item.png" alt=""><a href="#">Каталог</a> </li>
+                        <li><a href="#">О продукте</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#">Доставка и оплата</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+
+                <div class="cart_and_geo">
+                    <ul class="cart_and_geo_link inline">
+                        <li><img src="img/icons/send.png" alt=""> <a> Москва</a></li>
+                        <li><img src="img/icons/shopping-cart.png" alt=""> <a>Моя корзина</a> <span>+1</span> </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </header>
+
+        <div class="container clearfix">
+            <main class="content">
+                <!-- Блок слайдера -->
+                <div class="slider_main">
+                    <div class="slider_item">
+                        <div class="slider_item_box">
+                            <div class="slider_item_box_in">
+                                <h1>Кресла Samurai на выгодных условиях по всей стране <img src="img/ru.png" alt=""
+                                        id="ru-png"></h1>
+                                <div class="slider_decs">Здесь вам не придется покупать товар в слепую — проведите
+                                    тест-драйв перед покупкой</div>
+                                <div class="btn_slider_box"><button class="btn_slider">Запись на тест драйв</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider_item">
+                        <div class="slider_item_box">
+                            <div class="slider_item_box_in">
+                                <h1>Кресла Samurai на выгодных условиях по всей стране <img src="img/ru.png" alt=""
+                                        id="ru-png"></h1>
+                                <div class="slider_decs">Здесь вам не придется покупать товар в слепую — проведите
+                                    тест-драйв перед покупкой</div>
+                                <div class="btn_slider_box"><button class="btn_slider">Запись на тест драйв</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <!-- Блок преимущества  -->
+                <div class="adv_wrapper">
+                    <div class="adv_box">
+                        <div class="adv_box_img"><img src="img/icons/line.png" alt=""></div>
+                        <div class="adv_box_text"><span>Бесплатная доставка</span> по Москве и Санкт-Петербургу — от 3
+                            шт.</div>
+                        <div class="adv_box_mintext">Как получить?</div>
+                    </div>
+                    <div class="adv_box">
+                        <div class="adv_box_img"><img src="img/icons/chess.png" alt=""></div>
+                        <div class="adv_box_text"><span>Индивидуальные скидки</span> при заказе от 3 шт.</div>
+                        <div class="adv_box_mintext">Смотреть условия</div>
+                    </div>
+                    <div class="adv_box">
+                        <div class="adv_box_img"><img src="img/icons/discount.png" alt=""></div>
+                        <div class="adv_box_text">Для юридических лиц действуют <span>особые условия</span></div>
+                        <div class="adv_box_mintext">Узнать подробнее</div>
+                    </div>
+                </div>
+
+                <div class="catalog_wrapper">
+                    <div class="catalog_title">
+                        <h1>Каталог кресел</h1>
+                    </div>
+                    <div class="catalog_filter">
+                        <!-- Фильтр спинка -->
+                        <div class="catalog_filter_box">
+                            <div class="select_wrap">
+                                <div class="filter_name">Спинка</div>
+                                <ul class="default_option">
+                                    <li>
+                                        <div class="option pizza">
+                                            <div class="icon"><img src="/img/icons/subtract.png" alt=""></div>
+                                            <p>Сетка</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="select_ul">
+                                    <li>
+                                        <div class="option pizza">
+                                            <div class="icon"><img src="/img/icons/subtract.png" alt=""></div>
+                                            <p>Сетка</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="option burger">
+                                            <div class="icon"><img src="/img/icons/kozhzam.png" alt=""></div>
+                                            <p>Кожзам</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="option ice">
+                                            <div class="icon"><img src="/img/icons/3d.png" alt=""></div>
+                                            <p>3D</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Фильтр сиденье -->
+                        <div class="catalog_filter_box">
+                            <div class="select_wrap">
+                                <div class="filter_name">Сиденье</div>
+                                <ul class="default_option">
+                                    <li>
+                                        <div class="option burger">
+                                            <div class="icon"><img src="/img/icons/kozhzam.png" alt=""></div>
+                                            <p>Кожзам</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="select_ul">
+                                    <li>
+                                        <div class="option pizza">
+                                            <div class="icon"><img src="/img/icons/subtract.png" alt=""></div>
+                                            <p>Сетка</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="option burger">
+                                            <div class="icon"><img src="/img/icons/kozhzam.png" alt=""></div>
+                                            <p>Кожзам</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="option ice">
+                                            <div class="icon"><img src="/img/icons/3d.png" alt=""></div>
+                                            <p>3D</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <!-- Фильтр подголовник -->
+                        <div class="catalog_filter_box">
+                            <div class="select_wrap">
+                                <div class="filter_name long">Подголовник</div>
+                                <ul class="default_option">
+                                    <li>
+                                        <div class="option ice">
+                                            <div class="icon"><img src="/img/icons/3d.png" alt=""></div>
+                                            <p>3D</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="select_ul">
+                                    <li>
+                                        <div class="option pizza">
+                                            <div class="icon"><img src="/img/icons/subtract.png" alt=""></div>
+                                            <p>Сетка</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="option burger">
+                                            <div class="icon"><img src="/img/icons/kozhzam.png" alt=""></div>
+                                            <p>Кожзам</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="option ice">
+                                            <div class="icon"><img src="/img/icons/3d.png" alt=""></div>
+                                            <p>3D</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <!-- Фильтр по свойствам -->
+                        <div class="catalog_filter_box">
+                            <div class="select_wrap">
+                                <div class="filter_name long">Подлокотник</div>
+                                <ul class="default_option">
+                                    <li>
+                                        <div class="option ice">
+                                            <div class="icon"></div>
+                                            <p>Все</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="select_ul">
+                                    <li>
+                                        <div class="option pizza">
+                                            <div class="icon"></div>
+                                            <p>C Подлокотником</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="option burger">
+                                            <div class="icon"></div>
+                                            <p>Без Подлокотника</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="option ice">
+                                            <div class="icon"></div>
+                                            <p>Мягкий Подлокотник</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Каталог начало-->
+                    <div class="catalog_main">
+                        <div class="catalog_main_box">
+                            <div class="catalog_img"><img src="img/item/image_70.jpg" alt=""></div>
+                            <div class="catalog_item_title">Samurai KL-1.04 Темно-коричневый</div>
+                            <div class="catalog_price">24 000 ₽</div>
+                            <div class="catalog_sale"><span class="sale_line_on">27 000 ₽</span></div>
+                            <div class="catalog_cart_button"><button class="btn-cart">Добавить в корзину</button></div>
+                        </div>
+                        <div class="catalog_main_box">
+                            <div class="catalog_img"><img src="img/item/image_70.jpg" alt=""></div>
+                            <div class="catalog_item_title">Samurai KL-1.04 Темно-коричневый</div>
+                            <div class="catalog_price">24 000 ₽</div>
+                            <div class="catalog_sale"><span class="sale_line_on">27 000 ₽</span></div>
+                            <div class="catalog_cart_button"><button class="btn-cart">Добавить в корзину</button></div>
+                        </div>
+                        <div class="catalog_main_box">
+                            <div class="catalog_img"><img src="img/item/image_70.jpg" alt=""></div>
+                            <div class="catalog_item_title">Samurai KL-1.04 Темно-коричневый</div>
+                            <div class="catalog_price">24 000 ₽</div>
+                            <div class="catalog_sale"><span class="sale_line_on">27 000 ₽</span></div>
+                            <div class="catalog_cart_button"><button class="btn-cart">Добавить в корзину</button></div>
+                        </div>
+                        <div class="catalog_main_box">
+                            <div class="catalog_img"><img src="img/item/image_70.jpg" alt=""></div>
+                            <div class="catalog_item_title">Samurai KL-1.04 Темно-коричневый</div>
+                            <div class="catalog_price">24 000 ₽</div>
+                            <div class="catalog_sale"><span class="sale_line_on">27 000 ₽</span></div>
+                            <div class="catalog_cart_button"><button class="btn-cart">Добавить в корзину</button></div>
+                        </div>
+                        <div class="catalog_main_box">
+                            <div class="catalog_img"><img src="img/item/image_70.jpg" alt=""></div>
+                            <div class="catalog_item_title">Samurai KL-1.04 Темно-коричневый</div>
+                            <div class="catalog_price">24 000 ₽</div>
+                            <div class="catalog_sale"><span class="sale_line_on">27 000 ₽</span></div>
+                            <div class="catalog_cart_button"><button class="btn-cart">Добавить в корзину</button></div>
+                        </div>
+                        <div class="catalog_main_box">
+                            <div class="catalog_img"><img src="img/item/image_70.jpg" alt=""></div>
+                            <div class="catalog_item_title">Samurai KL-1.04 Темно-коричневый</div>
+                            <div class="catalog_price">24 000 ₽</div>
+                            <div class="catalog_sale"><span class="sale_line_on">27 000 ₽</span></div>
+                            <div class="catalog_cart_button"><button class="btn-cart">Добавить в корзину</button></div>
+                        </div>
+                        <div class="catalog_main_box">
+                            <div class="catalog_img"><img src="img/item/image_70.jpg" alt=""></div>
+                            <div class="catalog_item_title">Samurai KL-1.04 Темно-коричневый</div>
+                            <div class="catalog_price">24 000 ₽</div>
+                            <div class="catalog_sale"><span class="sale_line_on">27 000 ₽</span></div>
+                            <div class="catalog_cart_button"><button class="btn-cart">Добавить в корзину</button></div>
+                        </div>
+                        <div class="catalog_main_box">
+                            <div class="catalog_img"><img src="img/item/image_70.jpg" alt=""></div>
+                            <div class="catalog_item_title">Samurai KL-1.04 Темно-коричневый</div>
+                            <div class="catalog_price">24 000 ₽</div>
+                            <div class="catalog_sale"><span class="sale_line_on">27 000 ₽</span></div>
+                            <div class="catalog_cart_button"><button class="btn-cart">Добавить в корзину</button></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Каталог конец-->
+
+                <div class="btn_line"><button class="btn_load_pagination">Показать все</button></div>
+
+                <!--Преимущества начало-->
+                <div class="advantages_box">
+                    <div class="adv_wrapper2">
+                        <div class="advantages_title_box">
+                            <div class="advantages_title">
+                                <h2>Особенности кресел Самурай</h2>
+                            </div>
+                            <div class="advantages_description">
+                                <p>Здесь будет более подробно развернуто ключевое преимущество. Четвертое поколение
+                                    Samurai, выпускаемое с сентября 2020 года. <span> Исправлены десятки
+                                        недочетов</span> предыдущих поколений</p>
+                            </div>
+                        </div>
+                        <div class="advantages_info_box">
+                            <div class="advantages_text">
+                                <ul class="advantages_list">
+                                    <li class="adv_list_item adv_list_item1" id="adv_list_item1"
+                                        onmouseover="hoverOnfirst()" onmouseout="hoverOfffirst()">
+                                        <p>Индивидуальные настройки</p>
+                                        <p>Учитывая ключевые сценарии поведения, высокое качество позиционных
+                                            исследований способствует повышению</p>
+                                    </li>
+                                    <li class="adv_list_item">
+                                        <p>Индивидуальные настройки</p>
+                                        <p>Учитывая ключевые сценарии поведения, высокое качество позиционных
+                                            исследований способствует повышению</p>
+                                    </li>
+                                    <li class="adv_list_item">
+                                        <p>Индивидуальные настройки</p>
+                                        <p>Учитывая ключевые сценарии поведения, высокое качество позиционных
+                                            исследований способствует повышению</p>
+                                    </li>
+                                    <li class="adv_list_item">
+                                        <p>Индивидуальные настройки</p>
+                                        <p>Учитывая ключевые сценарии поведения, высокое качество позиционных
+                                            исследований способствует повышению</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="advantages_img">
+                                <span class="pulse" id="pulse" onmouseover="hoverOnfirst()"
+                                    onmouseout="hoverOfffirst()"></span>
+                                <img src="img/kreslo_adv.png" alt="">
+                            </div>
+                            <div class="advantages_text">
+                                <ul class="advantages_list">
+                                    <li class="adv_list_item">
+                                        <p>Индивидуальные настройки</p>
+                                        <p>Учитывая ключевые сценарии поведения, высокое качество позиционных
+                                            исследований способствует повышению</p>
+                                    </li>
+                                    <li class="adv_list_item">
+                                        <p>Индивидуальные настройки</p>
+                                        <p>Учитывая ключевые сценарии поведения, высокое качество позиционных
+                                            исследований способствует повышению</p>
+                                    </li>
+                                    <li class="adv_list_item">
+                                        <p>Индивидуальные настройки</p>
+                                        <p>Учитывая ключевые сценарии поведения, высокое качество позиционных
+                                            исследований способствует повышению</p>
+                                    </li>
+                                    <li class="adv_list_item">
+                                        <p>Индивидуальные настройки</p>
+                                        <p>Учитывая ключевые сценарии поведения, высокое качество позиционных
+                                            исследований способствует повышению</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Преимущества конец-->
+                <div class="clearfix"></div>
+
+                <!--Блок призыв к действию начало-->
+
+                <div class="test_drive_wrapper">
+                    <div class="test_drive_box">
+                        <div class="test_drive_item td_desc">
+                            <h3>Посетите салон и проведите тест-драйв лично</h3>
+                            <p>У нас есть шоурумы в Москве и Санкт-Петербурге, где мы всегда рады видеть вас. Дат
+                                профессиональную консультацию и поделиться экспертизой</p>
+                            <p><button class="btn_td">Запись на тест-драйв</button></p>
+                        </div>
+                        <div class="test_drive_item td_img">
+                            <img src="img/td_img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <!--Блок призыв к действию конец-->
+                <div class="clearfix"></div>
+
+                <!--Блок партнеры начало-->
+                <div class="clients_box">
+                    <div class="clients_title">
+                        <h2>Наши клиенты</h2>
+                    </div>
+                    <div class="clients_img">
+                        <div class="clients_box_item"><img src="img/clients/rzhd.png" alt=""></div>
+                        <div class="clients_box_item"><img src="img/clients/nornikel.png" alt=""></div>
+                        <div class="clients_box_item"><img src="img/clients/bashneft.png" alt=""></div>
+                        <div class="clients_box_item"><img src="img/clients/roskosmos.png" alt=""></div>
+                        <div class="clients_box_item"><img src="img/clients/home-credit.png" alt=""></div>
+                        <div class="clients_box_item"><img src="img/clients/pobeda.png" alt=""></div>
+                    </div>
+                </div>
+                <!--Блок партнеры конец-->
+                <div class="clearfix"></div>
+
+                <!--Отзывы начало-->
+                <div class="otziv_title">
+                    <h2>Отызывы</h2>
+                </div>
+
+                <div class="slider_otziv">
+                    <div class="slider_item_ot">
+                        <div class="ot_box">
+                            <div class="ot_avatar"> <img src="img/nata.png" alt=""></div>
+                            <div class="ot_name">
+                                <div>Наталья, Москва</div>
+                                <div class="ot_reiting">
+                                    <img src="img/Star 1.png" alt="">
+                                    <img src="img/Star 2.png" alt="">
+                                    <img src="img/Star 3.png" alt="">
+                                    <img src="img/Star 4.png" alt="">
+                                    <img src="img/Star 5.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ot_desc">С другой стороны выбранный нами инновационный путь создаёт предпосылки
+                            качественно новых шагов для всесторонне сбалансированных нововведений. С другой стороны
+                            повышение уровня гражданского...</div>
+                        <div class="ot_link">Читать целиком</div>
+                    </div>
+                    <div class="slider_item_ot">
+                        <div class="ot_box">
+                            <div class="ot_avatar"> <img src="img/nata.png" alt=""></div>
+                            <div class="ot_name">
+                                <div>Наталья, Москва</div>
+                                <div class="ot_reiting">
+                                    <img src="img/Star 1.png" alt="">
+                                    <img src="img/Star 2.png" alt="">
+                                    <img src="img/Star 3.png" alt="">
+                                    <img src="img/Star 4.png" alt="">
+                                    <img src="img/Star 5.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ot_desc">С другой стороны выбранный нами инновационный путь создаёт предпосылки
+                            качественно новых шагов для всесторонне сбалансированных нововведений. С другой стороны
+                            повышение уровня гражданского...</div>
+                        <div class="ot_link">Читать целиком</div>
+                    </div>
+                    <div class="slider_item_ot">
+                        <div class="ot_box">
+                            <div class="ot_avatar"> <img src="img/nata.png" alt=""></div>
+                            <div class="ot_name">
+                                <div>Наталья, Москва</div>
+                                <div class="ot_reiting">
+                                    <img src="img/Star 1.png" alt="">
+                                    <img src="img/Star 2.png" alt="">
+                                    <img src="img/Star 3.png" alt="">
+                                    <img src="img/Star 4.png" alt="">
+                                    <img src="img/Star 5.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ot_desc">С другой стороны выбранный нами инновационный путь создаёт предпосылки
+                            качественно новых шагов для всесторонне сбалансированных нововведений. С другой стороны
+                            повышение уровня гражданского...</div>
+                        <div class="ot_link">Читать целиком</div>
+                    </div>
+                    <div class="slider_item_ot">
+                        <div class="ot_box">
+                            <div class="ot_avatar"> <img src="img/nata.png" alt=""></div>
+                            <div class="ot_name">
+                                <div>Наталья, Москва</div>
+                                <div class="ot_reiting">
+                                    <img src="img/Star 1.png" alt="">
+                                    <img src="img/Star 2.png" alt="">
+                                    <img src="img/Star 3.png" alt="">
+                                    <img src="img/Star 4.png" alt="">
+                                    <img src="img/Star 5.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ot_desc">С другой стороны выбранный нами инновационный путь создаёт предпосылки
+                            качественно новых шагов для всесторонне сбалансированных нововведений. С другой стороны
+                            повышение уровня гражданского...</div>
+                        <div class="ot_link">Читать целиком</div>
+                    </div>
+                </div>
+
+                <!--Блок заявки-->
+
+                <div class="form_main_wrapper">
+                    <div class="form_main_box">
+                        <div class="form_main_item">
+                            <div class="form_item_wr">
+                                <h3>У вас остались вопросы?</h3>
+                                <p>Оставьте контакты. Наш менеджер свяжется с вами и бесплатно проконсультирует</p>
+                            </div>
+                        </div>
+                        <div class="form_main_item">
+                            <img src="img/bg_bottom_item.png" alt="">
+                        </div>
+                    </div>
+                    <div class="form_main_box">
+                        <div class="form_main_item">
+                            <div class="form_box">
+                                <form class="vopros-form">
+                                    <input type="text" placeholder="Ваше имя">
+                                    <input type="text" placeholder="Телефон для связи">
+                                    <button type="submit" id="form-button" class="btn-form">Заказать звонок</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </main>
+        </div>
+
+        <!--Карта-->
+        <div class="map_main">
+            <script type="text/javascript" charset="utf-8" async
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af5d4cd0d4f84de8c846affaa33761479ea5ae7cd60f1b673b871f7097d7b6875&amp;width=100%25&amp;height=680&amp;lang=ru_RU&amp;scroll=false">
+            </script>
+        </div>
+
+        <!--Футер-->
+        <footer class="footer">
+            <div class="footer_box">
+                <div class="footer_box_in">
+                    <div class="footer_contents">
+                        <div class="head_box_item"></div>
+                        <div class="logo_img"><img src="img/logo_footer.png" alt=""></div>
+                        <div class="logo_text">КРЕСЛА SAMURAI</div>
+                        <p>Политика конфиденциальности</p>
+                        <p>© 2021 Все права защищены.</p>
+                    </div>
+                    <div class="footer_contents">
+                        <ul>
+                            <li><a href="#">О продукте </a></li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="#">Доставка и оплата</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_contents">
+                        <div class="ft_phone">
+                            <div><img src="/img/icons/footer_fon.png" alt=""></div>
+                            <div> +7 495 221-06-75 </div>
+                        </div>
+                        <div class="ft_mail">
+                            <div><img src="/img/icons/mail.png" alt=""></div>
+                            <div>zakaz@kresla-samurai.ru</div>
+                        </div>
+                        <div class="ft_map">
+                            <div><img src="/img/icons/map.png" alt=""></div>
+                            <div>ул. Красного курсанта д.25, лит.в, оф. 114, бизнес-центр "RED CADET"</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".default_option").click(function () {
+                $(this).parent().toggleClass("active");
+            })
+
+            $(".select_ul li").click(function () {
+                var currentele = $(this).html();
+                $(".default_option li").html(currentele);
+                $(this).parents(".select_wrap").removeClass("active");
+            })
+        });
+    </script>
+</body>
+
+</html>
